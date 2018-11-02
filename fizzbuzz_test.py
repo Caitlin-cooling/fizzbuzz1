@@ -11,3 +11,7 @@ def test_buzz():
 def test_fizzbuzz():
     fizzbuzz = Fizzbuzz()
     assert fizzbuzz.play(15) == "Fizzbuzz"
+
+def test_number():
+    fizzbuzz = Fizzbuzz()
+    assert fizzbuzz.play(2) == 2
