@@ -1,4 +1,7 @@
 # Fizzbuzz
 class Fizzbuzz:
     def play(self, number):
-        return "Fizz"
+        if number % 3 == 0:
+            print("Fizz")
+        elif number % 5 == 0:
+            print ("Buzz")
