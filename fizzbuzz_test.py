@@ -2,8 +2,8 @@ from fizzbuzz import Fizzbuzz
 
 def test_fizz():
     fizzbuzz = Fizzbuzz()
-    print("Fizz")
+    assert fizzbuzz.play(3) == "Fizz"
 
 def test_buzz():
     fizzbuzz = Fizzbuzz()
-    print("Fizz")
+    assert fizzbuzz.play(5) == "Buzz"
